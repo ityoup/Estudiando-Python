@@ -1,5 +1,10 @@
 from xml.dom.expatbuilder import Rejecter
 
+from Constantes import PI
+
+
+import Constantes
+#Se importa la librería o la otra clase "Contaste"
 
 nombre = "Juan" 
 #Cuando es un numero, no usa comilla
@@ -17,3 +22,7 @@ print(nombre,nombre1,nombre2)
 
 ejemplo = ejemplo1 = ejemplo2 = "Juan"
 print(ejemplo, ejemplo1, ejemplo2)
+
+#Aqui vamos a llamar a la constante PI
+print(Constantes.PI)
+#Se llama a la clase, escribimos . y el nombre de la constante
